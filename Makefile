@@ -7,6 +7,7 @@
 
 PROJECT_ROOT = $(shell pwd)
 
+
 .PHONY: build
 build:
 	cd core && ./configure
